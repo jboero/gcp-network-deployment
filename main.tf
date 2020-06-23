@@ -7,5 +7,5 @@ module "network" {
   auto_create_subnetworks = "true"
   network_name = "test"
   project_id = "myproject"
-  subnets = "subnet-id"
+  subnets = "172.0.0.0/8"
 }
